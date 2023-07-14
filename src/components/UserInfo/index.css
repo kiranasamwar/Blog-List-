@@ -1,1 +1,30 @@
 /* Write your CSS code here */
+
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.user-img {
+  width: 150px;
+}
+.user-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #6d396d;
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+.user-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  color: #555555;
+}
+@media screen and (min-width: 576px) {
+  .user-heading {
+    font-size: 48px;
+  }
+}
